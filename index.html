@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project5</title>
+    <style>
+        .img {
+            width: 200px;
+            height: 200px;
+            border-radius: 10%;
+            background-color: yellowgreen;
+            display: inline-block;
+            margin-left: 18px;
+            position: relative;
+            margin-top: 50px;
+        }
+
+        .img::before {
+            top: 0;
+            bottom: 0;
+            right: 0;
+            scale: 0;
+            width: 200px;
+            content: '';
+            position: absolute;
+            height: 200px;
+            border-radius: 10%;
+            transition: .4s;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .img:hover::before {
+            scale: 1;
+        }
+
+        .img1::before {
+            background-image: url(Neymar.jpg);
+        }
+
+        .img1:hover::before {
+            transform: rotateZ(360deg);
+        }
+
+        .img2::before {
+            background-image: url(n.jpg);
+        }
+
+        .img2:hover::before {
+            transform: rotateY(360deg);
+        }
+
+        .img3::before {
+            background-image: url(ron.jpg);
+        }
+
+        .img3:hover::before {
+            transform: rotateX(360deg);
+        }
+
+        .img4::before {
+            background-image: url(ro.jpeg);
+        }
+
+        .img4:hover::before {
+            transform: rotateZ(360deg);
+        }
+
+        .img5::before {
+            background-image: url(volga.jpg);
+        }
+
+        .img5:hover::before {
+            transform: rotateY(360deg);
+        }
+
+        .img6::before {
+            background-image: url(me.jpg);
+        }
+
+        .img6:hover::before {
+            transform: rotateX(360deg);
+        }
+
+        .img7::before {
+            background-image: url(fa.jpg);
+        }
+
+        .img7:hover::before {
+            transform: rotateZ(360deg);
+        }
+
+        .img8::before {
+            background-image: url(mbap.jpg);
+        }
+
+        .img8:hover::before {
+            transform: rotateY(360deg);
+        }
+    </style>
+</head>
+
+<body>
+    </div>
+    <div class="img1 img">
+        <div class=""></div>
+    </div>
+    <div class="img2 img">
+        <div class=""></div>
+    </div>
+    <div class="img3 img">
+        <div class=""></div>
+    </div>
+    <div class="img4 img">
+        <div class=""></div>
+    </div>
+    <div class="img5 img">
+        <div class=""></div>
+    </div>
+    <div class="img6 img">
+        <div class=""></div>
+    </div>
+    <div class="img7 img">
+        <div class=""></div>
+    </div>
+    <div class="img8 img">
+        <div class=""></div>
+    </div>
+</body>
+
+</html>
